@@ -123,6 +123,9 @@ atom-text-editor .search-results .marker.current-result .region {
   &.syntax--parameter.syntax--function {
     color: @orange;
   }
+  &.syntax--readwrite{
+    color: @white;
+  }
 }
 
 .syntax--invalid.syntax--illegal {
@@ -181,7 +184,7 @@ atom-text-editor .search-results .marker.current-result .region {
   }
 
   &.syntax--section.syntax--embedded {
-    color: @light-gray;
+    color: @dark-green;
   }
 
 }
@@ -224,7 +227,7 @@ atom-text-editor .search-results .marker.current-result .region {
 
   &.syntax--name.syntax--tag {
     color: @red;
-    text-decoration: underline;
+    //text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
