@@ -22,6 +22,11 @@
   font-weight: 700;
   src: local('Raleway Bold'), local('Raleway-Bold'), url("http://themes.googleusercontent.com/static/fonts/raleway/v6/JbtMzqLaYbbbCL9X6EvaI73hpw3pgy2gAi-Ip7WPMi0.woff") format('woff');
 }
+@keyframes name {
+  100%{
+    font-size: 10px:
+  }
+}
 article,
 aside,
 details,
