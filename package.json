@@ -1,11 +1,18 @@
 {
   "name": "fega-high-contrast-syntax",
   "theme": "syntax",
-  "version": "1.5.0",
-  "description": "A colorful, dark theme for Atom",
+  "version": "1.0.0",
+  "description": "A COLORFUL, dark theme for Atom, High contrast version of fega-syntax",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "color",
+    "colorful",
+    "fega",
+    "high contrast",
+    "visibility",
+    "javascript",
+    "graphQL"
   ],
   "repository": "https://github.com/fega/fega-syntax",
   "license": "MIT",
