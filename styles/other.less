@@ -4,3 +4,14 @@
     color: @gray;
   }
 }
+.syntax--graphql{
+  &.syntax--support.syntax--type.syntax--builtin{
+    color: @orange;
+  }
+  &.syntax--punctuation{
+    color: @gray;
+    &.syntax--colon, &.syntax--assignment, &.syntax--or{
+      color: @blue
+    }
+  }
+}
