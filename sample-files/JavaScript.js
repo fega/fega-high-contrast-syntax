@@ -30,8 +30,16 @@ app.use(function *(next) {
 
 // response
 
-app.use(function *() {
-  this.body = 'Hello World'
+app.use(function ({deconstruct,params}) {
+  const {foo, bar} = this;
+  const { fooo: {lety},  bars} = this;
+  const { fooo: letty,  bars} = this;
+  const { fooo: letty="holi",  bars} = this;
+  let { fooo: letty,  bars} = this;
+  let { fooo: {lety},  bars} = this;
+  hola.soo.da()
+  Promise.all()
+  Promise.set()
 })
 
 app.listen(3000)
