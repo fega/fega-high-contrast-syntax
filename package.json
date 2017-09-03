@@ -1,7 +1,7 @@
 {
   "name": "fega-syntax",
   "theme": "syntax",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "A colorful, dark theme for Atom",
   "keywords": [
     "syntax",
