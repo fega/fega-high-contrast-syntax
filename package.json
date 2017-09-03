@@ -1,7 +1,7 @@
 {
   "name": "fega-high-contrast-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A COLORFUL, dark theme for Atom, High contrast version of fega-syntax",
   "keywords": [
     "syntax",
